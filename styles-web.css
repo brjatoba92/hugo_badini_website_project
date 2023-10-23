@@ -12,6 +12,47 @@ a{
     cursor: pointer;
 }
 
+h1{
+    color: #FFCE00;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h1.redes{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h2.redes{
+    font-size: 17px;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.center{
+    text-align: center;
+}
+
+.mt.redes{
+    margin-top: 136px;
+}
+
+.mt.bigger{
+    margin-top: 50px;
+}
+
 .mt{
     margin-top: 18px;
 }
@@ -19,6 +60,7 @@ a{
 .mt.search{
     margin-top: 14px;
 }
+
 
 .site-container{
     display: flex;
@@ -51,6 +93,12 @@ img.banner{
     height: 370px;
 }
 
+img.marca{
+    width: 300px;
+    height: 66px;
+    
+}
+
 .menu-container{
     display: flex;
     flex-direction: row;
@@ -78,5 +126,14 @@ img.banner{
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 30px;
+}
+
+.aim-container{
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    color: #fff;
+    align-items: center;  
+    justify-content: center;
 }
 
