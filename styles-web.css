@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    font-size: 14px;
+    font-weight: 400px;
+    cursor: pointer;
+}
+
+.mt{
+    margin-top: 18px;
+}
+
+.mt.search{
+    margin-top: 14px;
+}
+
+
+.site-container{
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    width: 100vw;
+    height: 100vh; 
+    justify-content: space-between; 
+}
+
+.nav-bar{
+    background: #5B4E3E;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 65px;
+    text-transform: uppercase;
+}
+
+img.logo{
+    width: 160px;
+    height: 40px;
+    margin-left: 50px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    margin-left: 170px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.search{
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    background-color: #FFF;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 227px;
+    height: 38px;
+    margin-left: 35px;
+    margin-right: 50px;
+    text-align: end;
+    background-image: url(src/icons/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+}
