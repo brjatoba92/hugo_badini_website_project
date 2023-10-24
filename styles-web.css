@@ -6,10 +6,30 @@ body{
     padding: 0px;
 }
 
+button{
+    background: #408BD1;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+button.link{
+    width: 200px;
+    height: 15px;
+    justify-content: space-between;
+}
+
 a{
     font-size: 14px;
     font-weight: 400px;
     cursor: pointer;
+    text-decoration: none;
+}
+
+a.rede{
+    font-size: 12px;
+    font-weight: 400px;
 }
 
 h1{
@@ -82,6 +102,10 @@ p{
     margin-top: 116px;
 }
 
+.mt.micro{
+    margin-top: 2px;
+}
+
 .site-container{
     display: flex;
     flex-direction: column;
@@ -118,7 +142,13 @@ img.banner{
 img.marca{
     width: 300px;
     height: 66px;
-    
+}
+
+img.instagram{
+    width: 13px;
+    height: 15px;
+    margin-bottom: 3px;
+    margin-right: 11px;
 }
 
 .menu-container{
@@ -180,10 +210,16 @@ img.marca{
     margin-right: 90px;
 }
 
+.youtube-content{
+    align-items: center;
+    justify-content: center;
+}
+
+
 .courses-container{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: 90px;
     margin-right: 90px;
     margin-bottom: 60px;
@@ -193,6 +229,7 @@ img.marca{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
+    justify-content: space-between;
 }
 
 .redes-cards{
@@ -200,12 +237,19 @@ img.marca{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto;
     column-gap: 220px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .redes-cards.content{
     display: flex;
     flex-direction: column;
+    
+}
 
+.button-container{
+    display: flex;
+    flex-direction: row;
 }
 
 
