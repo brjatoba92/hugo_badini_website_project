@@ -45,9 +45,6 @@ p{
     text-align: center;
 }
 
-.mt.redes{
-    margin-top: 136px;
-}
 
 .mt.bigger{
     margin-top: 50px;
@@ -61,6 +58,25 @@ p{
     margin-top: 14px;
 }
 
+.mt.small{
+    margin-top: 10px;
+}
+
+.mt.text{
+    margin-top: 112px;
+}
+
+.mt.text2{
+    margin-top: 66px;
+}
+
+.mt.text3{
+    margin-top: 29px;
+}
+
+.mt.middle{
+    margin-top: 70px;
+}
 
 .site-container{
     display: flex;
@@ -76,7 +92,7 @@ p{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 65px;
+    height: 100px;
     text-transform: uppercase;
     justify-content: space-between;
 }
@@ -85,6 +101,7 @@ img.logo{
     width: 160px;
     height: 40px;
     margin-left: 50px;
+    margin-bottom: 42px;
     cursor: pointer;
     align-items: center;
 }
@@ -106,6 +123,7 @@ img.marca{
     color: #fff;
     margin-left: 170px;
     align-items: center;
+    height: 45px;
     justify-content: center;
     gap: 30px;
 }
@@ -122,6 +140,7 @@ img.marca{
     height: 38px;
     margin-left: 35px;
     margin-right: 50px;
+    margin-bottom: 48px;
     text-align: end;
     background-image: url(src/icons/search.png);
     background-repeat: no-repeat;
@@ -145,3 +164,25 @@ img.marca{
     margin-right: 60px;
 }
 
+.youtube-container{
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    height: 634px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.courses-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.courses-cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+}
