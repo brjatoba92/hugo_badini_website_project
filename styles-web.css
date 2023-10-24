@@ -78,6 +78,10 @@ p{
     margin-top: 70px;
 }
 
+.mt.redes{
+    margin-top: 116px;
+}
+
 .site-container{
     display: flex;
     flex-direction: column;
@@ -165,6 +169,8 @@ img.marca{
     margin-right: 60px;
 }
 
+
+
 .youtube-container{
     display: flex;
     flex-direction: column;
@@ -180,6 +186,7 @@ img.marca{
     justify-content: space-between;
     margin-left: 90px;
     margin-right: 90px;
+    margin-bottom: 60px;
 }
 
 .courses-cards{
@@ -188,6 +195,12 @@ img.marca{
     grid-template-rows: auto;
 }
 
-.youtube-content{
-        
+.redes-cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    gap: 220px;
 }
+
+
+
