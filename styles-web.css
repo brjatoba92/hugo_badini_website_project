@@ -53,6 +53,10 @@ h1.redes{
     font-size: 25px;
 }
 
+h1.blog{
+    font-size: 21px;
+}
+
 h2{
     font-size: 20px;
     font-weight: 400;
@@ -80,6 +84,10 @@ p{
     font-weight: 400;
 }
 
+p.email{
+    font-size: 12px;
+}
+
 p.small{
     font-size: 10px;
 }
@@ -91,6 +99,10 @@ p.small{
 
 .mt.bigger{
     margin-top: 50px;
+}
+
+.mt.footer{
+    margin-top: 36px;
 }
 
 .mt.big{
@@ -183,6 +195,11 @@ img.instagram{
     margin-right: 11px;
 }
 
+img.redes-icons-contents{
+    width: 30px;
+    height: 30px;
+}
+
 .menu-container{
     display: flex;
     flex-direction: row;
@@ -224,6 +241,8 @@ img.instagram{
     align-items: center;  
     justify-content: center;
     margin-bottom: 60px;
+    width: 100%;
+    height: auto;
 }
 
 .aim-container.text{
@@ -303,4 +322,10 @@ img.instagram{
 .footer-card-contents{
     display: flex;
     flex-direction: column;
+}
+
+.redes-icons-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto;
 }
