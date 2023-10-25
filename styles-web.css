@@ -10,11 +10,17 @@ body{
 }
 
 button{
-    background: #408BD1;
+    background: #333;
     color: #fff;
     border-radius: 4px;
     font-size: 12px;
     text-decoration: none;
+    height: 20px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    line-height: 19.5px;
+    padding-right: 14px;
+    padding-left: 14px;
 }
 
 button.link{
@@ -39,6 +45,16 @@ button.maisposts{
     height: 48px;
     background-color: #FFCE00;
     border-radius: 2px;
+    margin-bottom: 60px;
+}
+
+button.instagram{
+    width: 200px;
+    height: auto;
+    background: #408BD1;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-size: 12px;
 }
 
 a{
@@ -80,7 +96,6 @@ h2{
     font-size: 20px;
     font-weight: 400;
 }
-
 
 h3{
     font-size: 18px;
@@ -220,6 +235,11 @@ img.redes-icons-contents{
     height: 30px;
 }
 
+img.icon-instagram-button{
+    width: 13px;
+    height: 15px;
+}
+
 .menu-container{
     display: flex;
     flex-direction: row;
@@ -251,8 +271,6 @@ img.redes-icons-contents{
     padding-right: 30px;
 }
 
-
-
 .aim-container{
     display: flex;
     flex-direction: column;
@@ -263,29 +281,14 @@ img.redes-icons-contents{
     margin-bottom: 60px;
     width: 100%;
     height: auto;
+    margin-left: 62px;
+    margin-right: 62px;
 }
 
 .aim-container.text{
     margin-left: 60px;
     margin-right: 60px;
 }
-
-
-
-.youtube-container{
-    display: flex;
-    flex-direction: column;
-    width: 1120px;
-    height: 634px;
-    margin-left: 90px;
-    margin-right: 90px;
-}
-
-.youtube-content{
-    align-items: center;
-    justify-content: center;
-}
-
 
 .courses-container{
     display: flex;
@@ -310,20 +313,36 @@ img.redes-icons-contents{
     column-gap: 220px;
     margin-left: 60px;
     margin-right: 60px;
+    margin-bottom: 73px;
 }
 
 
 .redes-cards-content{
     display: flex;
     flex-direction: column;
-    background: #fff;
     color: #303133;
-    
+}
+
+.blog-cards-content{
+    display: flex;
+    flex-direction: column;
+    color: #303133;
+    background-color: #FFF;
 }
 
 .button-container{
+    justify-content: center;
+
+}
+
+.button-content{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-right: 13px;
+    padding-left: 14px;
 }
 
 .footer-container{
