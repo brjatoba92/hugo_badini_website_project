@@ -254,6 +254,7 @@ img.icon-instagram-button{
     height: 45px;
     justify-content: center;
     gap: 30px;
+    box-sizing: border-box
 }
 
 .search{
