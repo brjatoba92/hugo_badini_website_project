@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;    
+}
+
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+p{
+    font-size: 14px;
+    color: #7c7c7c;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+    color: #010400;
+}
+
+
+label{
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+a{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #010400;
+}
+
+button{
+    background-color: #FFCE00;
+    height: 56px;
+    width: 432px;
+    border-radius: 12px;
+    color: #fff;
+    border-width: 2px;
+    font-weight: bold;
+    font-size: 16px;
+    border-color: #FFCE00;
+    border-style: solid;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+input{
+    background-color: #F4F4F9;
+    width: 100%;
+    height: 48px;
+    border-color: #06BEE1;
+    border-style: solid;
+    border-width: 2px;
+    color: #010400;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 6px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+
+.mt16{
+    margin-top: 16px;
+}
+
+.mt32{
+    margin-top: 32px;
+}
+
+.mt24{
+    margin-top: 24px;
+}
+
+
+.mt12{
+    margin-top: 12px;
+
+}
+
+.mt6{
+    margin-top: 6px;
+}
+
+.auth-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFCE00;
+    align-items: center;
+    justify-content: center;
+    color: #010400;
+}
+
+.auth-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5B4E3E;
+    width: 480px;
+    height: auto;
+    min-height: 460px;
+    border-radius: 24px;
+}
+
+.auth-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    gap: 16px;
+    color: #010400;
+}

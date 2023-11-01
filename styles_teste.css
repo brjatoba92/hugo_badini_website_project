@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+button{
+    background: #333;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    height: 20px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    line-height: 19.5px;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+button.link{
+    width: 200px;
+    height: 15px;
+    justify-content: space-between;
+}
+
+button.contribua{
+    width: 164px;
+    height: 35px;
+    background: #FFCE00;
+    color: #3A3A3A;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 12px;
+}
+
+button.maisposts{
+    width: 143px;
+    height: 48px;
+    background-color: #FFCE00;
+    border-radius: 2px;
+    margin-bottom: 60px;
+}
+
+button.instagram{
+    width: 200px;
+    height: auto;
+    background: #408BD1;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    font-size: 12px;
+}
+
+a{
+    font-size: 14px;
+    font-weight: 400px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.rede{
+    font-size: 12px;
+    font-weight: 400px;
+}
+
+a.contribua{
+    font-size: 15px;
+}
+
+a.maisposts-text{
+    font-size: 15px;
+    color: #FFF;
+}
+
+h1{
+    color: #FFCE00;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+h1.redes{
+    font-size: 25px;
+}
+
+h1.blog{
+    font-size: 21px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+h3.menor{
+    font-size: 16px;
+}
+
+h3.small{
+    font-size: 15px;
+}
+
+h3.copyright{
+    font-size: 15px;
+    color: #cbc9c7;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p.email{
+    font-size: 12px;
+}
+
+p.small{
+    font-size: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.mt-bigger{
+    margin-top: 50px;
+}
+
+.mt.footer{
+    margin-top: 36px;
+}
+
+.mt-big{
+    margin-top: 25px;
+}
+
+.mt{
+    margin-top: 18px;
+}
+
+.mt-search{
+    margin-top: 14px;
+}
+
+.mt-small{
+    margin-top: 10px;
+}
+
+.mt-text{
+    margin-top: 112px;
+}
+
+.mt-text2{
+    margin-top: 66px;
+}
+
+.mt-text3{
+    margin-top: 29px;
+}
+
+.mt-middle{
+    margin-top: 70px;
+}
+
+.mt-redes{
+    margin-top: 116px;
+}
+
+.mt.micro{
+    margin-top: 2px;
+}
+
+.pt{
+    padding-top: 8px;
+}
+
+.pb{
+    padding-bottom: 60px;
+}
+
+.site-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFF;
+    width: 100vw;
+    height: 100vh; 
+    justify-content: space-between; 
+}
+
+.nav-bar{
+    background: #5B4E3E;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+img.logo{
+    width: 160px;
+    height: 40px;
+    margin-left: 50px;
+    margin-bottom: 42px;
+    cursor: pointer;
+    align-items: center;
+}
+
+img.banner{
+    width: 100%;
+    height: 370px;
+}
+
+img.marca{
+    width: 300px;
+    height: 66px;
+}
+
+img.instagram{
+    width: 13px;
+    height: 15px;
+    margin-bottom: 3px;
+    margin-right: 11px;
+}
+
+img.redes-icons-contents{
+    width: 30px;
+    height: 30px;
+}
+
+img.icon-instagram-button{
+    width: 13px;
+    height: 15px;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    margin-left: 170px;
+    align-items: center;
+    height: 45px;
+    justify-content: center;
+    gap: 30px;
+    box-sizing: border-box
+}
+
+.search{
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    background-color: #FFF;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 227px;
+    height: 38px;
+    margin-left: 35px;
+    margin-right: 50px;
+    margin-bottom: 48px;
+    text-align: end;
+    background-image: url(src/icons/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+}
+
+.aim-container{
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    color: #fff;
+    align-items: center;  
+    justify-content: center;
+    margin-bottom: 60px;
+    width: 100%;
+    height: auto;
+    margin-left: 62px;
+    margin-right: 62px;
+}
+
+.aim-container.text{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.courses-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 60px;
+}
+
+.courses-cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    justify-content: space-between;
+}
+
+.redes-cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 220px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 73px;
+}
+
+
+.redes-cards-content{
+    display: flex;
+    flex-direction: column;
+    color: #303133;
+}
+
+.blog-cards-content{
+    display: flex;
+    flex-direction: column;
+    color: #303133;
+    background-color: #FFF;
+}
+
+.button-container{
+    justify-content: center;
+
+}
+
+.button-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-right: 13px;
+    padding-left: 14px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 417px;
+    background: #5B4E3E;
+    color: #FFF;
+    justify-content: space-between;
+}
+
+.footer-cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 73px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer-card-contents{
+    display: flex;
+    flex-direction: column;
+}
+
+.redes-icons-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav li a:hover{
+    background-color: #FFCE00;
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+    background-color: #FFF;
+}
+
+.dropdown-menu a{
+    display: block;
+    color: black;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+
+}
