@@ -1,2 +1,47 @@
 @media only screen and (max-device-width: 450px) {
+    .menu-container{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+
+    .youtube-mobile{
+        display: flex;
+        flex-direction: column;
+        width: 380px;
+        height: 215px;
+    }
+
+    .section-courses{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .courses-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-redes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .section-footer{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: auto;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+    }
 }

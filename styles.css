@@ -3,12 +3,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
-body{
+body, html{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: red black;
 }
+
+
+/* 
+    Sessão barra de rolagem
+*/
+
+*::-webkit-scrollbar{
+    width: 15px;
+}
+
+/* Fundo barra de rolagem*/
+*::-webkit-scrollbar-track{
+    background-color: aqua;
+}
+
+/* Barra MENOR*/
+
+*::-webkit-scrollbar-thumb{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
+
+/* 
+    Sessão de botão
+*/
+
 
 button.contribua{
     width: 164px;
@@ -270,6 +300,7 @@ img.logo-footer{
     flex-direction: column;
     width: 100vw;
     height: auto;
+    background-color: #ddd;
 }
 
 .section-redes{
