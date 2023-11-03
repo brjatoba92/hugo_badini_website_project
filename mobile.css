@@ -1,16 +1,19 @@
-@media only screen and (max-device-width: 450px) {
-    .menu-container{
-        display: none;
-    }
+@media only screen and (max-device-width: 730px) {
+    .section-navbar{
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+        align-items: center;
+        box-sizing: border-box;
+        justify-content: space-between;
+    }    
+    
     .search{
         display: none;
     }
 
     .youtube-mobile{
-        display: flex;
-        flex-direction: column;
-        width: 380px;
-        height: 215px;
+        display: none
     }
 
     .section-courses{
@@ -33,15 +36,19 @@
         flex-direction: column;
     }
 
-
     .section-footer{
         display: flex;
         flex-direction: column;
         width: 400px;
         height: auto;
     }
+
     .footer-container{
         display: flex;
         flex-direction: column;
     }
+
+    /*new navbar
+    */
+    
 }

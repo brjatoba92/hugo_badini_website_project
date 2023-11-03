@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Noto+Sans:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
 
-body, html{
+body, html, ul{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     padding: 0px;
@@ -48,6 +48,7 @@ button.contribua{
     justify-content: center;
     background-color: #FFCE00;
 }
+
 
 /*
         Font-sizes
@@ -102,6 +103,8 @@ a{
     font-size: 15px;
     font-weight: 400px;
     cursor: pointer;
+    color: #FFF;
+    text-decoration: none;
 }
 
 /*
@@ -241,6 +244,10 @@ img.logo-footer{
     margin-right: 60px;
 }
 
+.mr50{
+    margin-right: 50px;
+}
+
 
 .mb60{
     margin-bottom: 60px;
@@ -255,13 +262,13 @@ img.logo-footer{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: auto
-    ;
+    height: auto;
 }
 
 .content-container{
     display: flex;
     flex-direction: column;
+    height: auto;
     width: 100vw;
 }
 
@@ -362,6 +369,10 @@ img.logo-footer{
     padding-right: 30px;
 }
 
+.btn-mobile{
+    display: none;
+}
+
 
 .banner-container{
     display: flex;
@@ -428,7 +439,6 @@ img.logo-footer{
     width: 100%;
 }
 
-.menu-container
 
 /*
         dropdown menu
@@ -440,7 +450,6 @@ nav li{
 
 nav li a{
     display: inline-block;
-    color: white;
     text-decoration: none;
     padding: 15px;
 }
@@ -464,11 +473,3 @@ nav li a:hover{
 .dropdown:hover .dropdown-menu{
     display: block;
 }
-
-
-
-
-
-
-
-
