@@ -348,6 +348,8 @@ nav li a:hover{
     padding: 60px 60px;
 }
 
+
+
 .redes-container{
     display: flex; /*não especificar para não dar conflito entre o web e mobile*/
     gap: 100px; 
