@@ -140,3 +140,7 @@ input{
     gap: 16px;
     color: #010400;
 }
+
+.auth-content-container>h3{
+    text-align: center;
+}

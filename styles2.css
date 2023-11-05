@@ -88,6 +88,10 @@ a{
     font-weight: 400;
 }
 
+a.footer{
+    font-size: 30px;
+}
+
 h1.title-aim{
     color: #FFCE00;
     text-transform: uppercase;
@@ -127,8 +131,21 @@ h1.title-redes{
     margin-top: 29px;
 }
 
+.mt25{
+    margin-top: 25px;
+}
+
 .mt19{
     margin-top: 19px;
+}
+
+.mt9{
+    margin-top: 9px;
+}
+
+
+.mt4{
+    margin-top: 4px;
 }
 
 .ml15{
@@ -293,19 +310,29 @@ nav li a:hover{
 .section-courses{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color:black;
     color: #fff;
     width: 100vw;
     height: auto;
     align-items: center;
     padding: 60px 60px;
 }
+/*Corrigir aqui*/
 
-.img-courses{
-    display: inline-block;
+.courses-container{
+    display: flex; /*não especificar para não dar conflito entre o web e mobile*/
+    gap: 100px; 
+}
+
+.courses-container.img-courses{
+    display: flex;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
+}
+
+.courses-cards{
+    text-align: center;
 }
 
 /*6 - Sessão de redes*/
@@ -322,9 +349,28 @@ nav li a:hover{
 }
 
 .redes-container{
-    display: flex;
-    gap: 100px;
+    display: flex; /*não especificar para não dar conflito entre o web e mobile*/
+    gap: 100px; 
 }
+
+.redes-cards{
+    display: inline-block;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+.text>h2{
+    text-align: center;
+}
+
+.redes-container.img-courses{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 /*7 - Sessão de blog*/
 
@@ -355,7 +401,9 @@ nav li a:hover{
 
 .blog-img-content{
     text-align: center;
+    /*background-color: #fff;*/
 }
+
 
 /*8 - Sessão de footer*/
 
@@ -387,16 +435,32 @@ nav li a:hover{
     color: #3A3A3A;
 }
 
+.footer-container{
+    display: flex; /*não especificar para não dar conflito entre o web e mobile*/
+    gap: 100px;
+}
+
 .icons-footer-container{
     display: flex;
     width: 100%;
     gap: 20px;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+.icons-footer-container > a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .icons-footer-container > i{
     font-size: 30px;
+    background-color: #FFCE00;
+}
+
+.footer-cards{
+    text-align: center;
 }
 
 
@@ -455,15 +519,24 @@ nav li a:hover{
         display: block;
     }
 
-    .youtube-courses{
-        display: none
+    iframe{
+        width:400px; 
+        height:260px;
+        
     }
 
     .redes-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column; /*especificar parea o mobile*/
         align-items: center;
     }
+
+    .courses-container{
+        display: flex;
+        flex-direction: column; /*especificar parea o mobile*/
+        align-items: center;
+    }
+
     .podcast-container{
         display: flex;
         flex-direction: column;
@@ -475,4 +548,9 @@ nav li a:hover{
         justify-content: center;
     }
 
+    .footer-container{
+        display: flex;
+        flex-direction: column; /*especificar parea o mobile*/
+        align-items: center;
+    }
 }
