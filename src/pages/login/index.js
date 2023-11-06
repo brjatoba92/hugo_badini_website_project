@@ -7,3 +7,7 @@ const onClickLogin = async() => {
     
     window.open("../member_area/index.html", "_self");
 };
+
+function onClickLink(url){
+    window.open(url)
+}
