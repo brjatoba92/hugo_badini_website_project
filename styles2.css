@@ -228,6 +228,7 @@ nav li a:hover{
     padding: 10px 15px;
     border-radius: 5px;
     background-color: #FFCE00;
+    cursor: pointer;
 }
 
 .login-button button a {
